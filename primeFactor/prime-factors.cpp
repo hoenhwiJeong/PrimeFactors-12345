@@ -17,7 +17,7 @@ private:
             }
         }
         if (number > 1) {
-            factors.push_back(std::to_string(number)); // 마지막 남은 소수
+            factors.push_back(std::to_string(number));
         }
     }
 
@@ -29,9 +29,11 @@ private:
 
             if (i < factors.size() - 1)
                 ret += ",";
+            else 
+                ret += "]";
         }
 
-        return ret + "]";
+        return ret;
     }
 
 public:
