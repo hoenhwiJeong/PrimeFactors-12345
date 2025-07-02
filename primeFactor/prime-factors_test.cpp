@@ -43,3 +43,7 @@ TEST_F(PrimeFactorFixter, PrimeTest12) {
 TEST_F(PrimeFactorFixter, PrimeTest14) {
     checkValue(14, "[2,7]");
 }
+
+TEST_F(PrimeFactorFixter, PrimeTest15) {
+    checkValue(15, "[3,5]");
+}
